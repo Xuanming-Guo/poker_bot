@@ -1,3 +1,30 @@
+# Puhguh
+
+Team **puhguh** submits the verified **ContextValueModel** baseline from this
+[fork of the organizer's repository](https://github.com/Xuanming-Guo/poker_bot).
+
+The required files are visible in the repository root:
+[model.py](model.py) and the binary [puhguh.pkl](puhguh.pkl). Use both files from
+the same revision. [Submission details](PUHGUH_SUBMISSION.md) and the
+[checksum manifest](PUHGUH_SUBMISSION_MANIFEST.json) record the verified artifact.
+
+This exact pair passed all 11 organizer model/documentation tests, the official
+submission validator, and 32,000 worker hands with zero faults or timeouts.
+These checks verify compatibility; tournament results remain uncertain.
+Exploratory ML policies are separate from this verified submission.
+
+The latest organizer update specifies **800 physical hands per round-one
+match** and **2,000 per final-round match**, with the top five teams advancing.
+With both seats replayed, these correspond to 400 and 1,000 duplicate deals per
+rotation. Play is heads-up no-limit Texas Hold'em, with 25-big-blind starting
+stacks, fixed 10/20 blinds, stacks reset each hand, and a 10-second callback limit.
+
+In the [submission form](https://forms.gle/usKbBRkG5fkiq6qN9), enter team name
+`puhguh` and repository URL `https://github.com/Xuanming-Guo/poker_bot`.
+The original organizer instructions and full API reference follow.
+
+---
+
 # Poker bot hackathon
 
 Write a bot that plays no-limit Texas hold'em. Your bot is a `Model` in
